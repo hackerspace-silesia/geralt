@@ -16,13 +16,10 @@ jobs:
       run: docker build . --file Dockerfile --tag ghcr.io/hackerspace-silesia/geralt:latest
 
     - name: Run Code Linting
-      run: docker run ghcr.io/hackerspace-silesia/geralt:latest go vet ./... && go install honnef.co/go/tools/cmd/staticcheck@latest && staticcheck ./...
-
+      run: docker run ghcr.io/hackerspace-silesia/geralt:latest go vet ./... 
+  
     - name: Run Tests
-      run: docker run ghcr.io/hackerspace-silesia/geralt:latest
-    - name: Publish image
-      run: |-
-        docker push "gcr.io/$PROJECT_ID/$IMAGE:$GITHUB_SHA"
+      run: docker run ghcr.io/hackerspace-silesia/geralt:latest go test ./...
 
   # deploy:
   #   runs-on: ubuntu-latest
