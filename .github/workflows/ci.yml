@@ -15,7 +15,7 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag ghcr.io/hackerspace-silesia/geralt:latest
 
-    - name: Code Linting
+    - name: Run Code Linting
       run: docker run ghcr.io/hackerspace-silesia/geralt:latest
 
     - name: Run Tests
