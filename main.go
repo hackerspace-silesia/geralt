@@ -14,6 +14,6 @@ func main() {
 	slackClient := slack.New(token)
 	r := gin.Default()
 	r.GET("/healthcheck", views.HealtcheckHandler)
-	r.POST("/commands", views.NewQuoteHandler(slackClient, signingSecret).Quote)
+	r.POST("/commands", views.NewQuoteHandler(slackClient, signingSecret).QuoteServe)
 	r.Run()
 }

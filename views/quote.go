@@ -27,7 +27,7 @@ func NewQuoteHandler(slackClient *slack.Client, secret string) *QuoteHandler {
 	}
 }
 
-func (handler *QuoteHandler) Quote(c *gin.Context) {
+func (handler *QuoteHandler) QuoteServe(c *gin.Context) {
 	if err := VerifySecret(c, handler.signingSecret); err != nil {
 		return
 	}
@@ -39,9 +39,7 @@ func (handler *QuoteHandler) Quote(c *gin.Context) {
 	fmt.Println(command)
 	switch command.Command {
 	case "/quote":
-		n := rand.Intn(len(handler.quotes))
-		quote := handler.quotes[n]
-		fmt.Println(quote)
+		quote := handler.GetRandomQuote()
 		_, _, _, err := handler.apiClient.SendMessage(
 			command.ChannelName,
 			slack.MsgOptionText(quote, false),
@@ -51,4 +49,10 @@ func (handler *QuoteHandler) Quote(c *gin.Context) {
 		}
 	}
 
+}
+
+func (handler *QuoteHandler) GetRandomQuote() string {
+	n := rand.Intn(len(handler.quotes))
+	quote := handler.quotes[n]
+	return quote
 }
