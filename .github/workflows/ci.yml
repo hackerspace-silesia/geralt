@@ -16,7 +16,7 @@ jobs:
       run: docker build . --file Dockerfile --tag ghcr.io/hackerspace-silesia/geralt:latest
 
     - name: Run Code Linting
-      run: docker run ghcr.io/hackerspace-silesia/geralt:latest
+      run: docker run ghcr.io/hackerspace-silesia/geralt:latest go vet ./... && go install honnef.co/go/tools/cmd/staticcheck@latest && staticcheck ./...
 
     - name: Run Tests
       run: docker run ghcr.io/hackerspace-silesia/geralt:latest
