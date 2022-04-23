@@ -9,7 +9,7 @@ on:
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
   GOOGLE_CLOUD_REGION: europe-north1-docker
-  IMAGE: geralt-bot
+  IMAGE: geralt/bot
 
 jobs:
   deploy:
@@ -55,8 +55,6 @@ jobs:
       run: |-
         docker build \
           --tag "$GOOGLE_CLOUD_REGION.pkg.dev/$PROJECT_ID/$IMAGE:$GITHUB_SHA" \
-          --build-arg GITHUB_SHA="$GITHUB_SHA" \
-          --build-arg GITHUB_REF="$GITHUB_REF" \
           .
 
     # Push the Docker image to Google Container Registry
