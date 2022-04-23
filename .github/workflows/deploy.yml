@@ -6,10 +6,10 @@ on:
     branches: [main]
     types:
       - completed
-
 env:
-  REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
+  PROJECT_ID: ${{ secrets.GKE_PROJECT }}
+  GOOGLE_CLOUD_REGION: europe-north1-docker
+  IMAGE: geralt-bot
 
 jobs:
   deploy:
@@ -17,24 +17,49 @@ jobs:
     environment: production
     steps:
     - uses: actions/checkout@v3
+    # Push to Github Packages
+    # - name: Log in to the Container registry
+    #   uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9
+    #   with:
+    #     registry: ${{ env.REGISTRY }}
+    #     username: ${{ github.actor }}
+    #     password: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Log in to the Container registry
-      uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9
-      with:
-        registry: ${{ env.REGISTRY }}
-        username: ${{ github.actor }}
-        password: ${{ secrets.GITHUB_TOKEN }}
+    # - name: Extract metadata (tags, labels) for Docker
+    #   id: meta
+    #   uses: docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38
+    #   with:
+    #     images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
 
-    - name: Extract metadata (tags, labels) for Docker
-      id: meta
-      uses: docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38
-      with:
-        images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+    # - name: Build and push Docker image
+    #   uses: docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc
+    #   with:
+    #     context: .
+    #     push: true
+    #     tags: ${{ steps.meta.outputs.tags }}
+    #     labels: ${{ steps.meta.outputs.labels }}
 
-    - name: Build and push Docker image
-      uses: docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc
+    # Setup gcloud CLI
+    - uses: google-github-actions/setup-gcloud@94337306dda8180d967a56932ceb4ddcf01edae7
       with:
-        context: .
-        push: true
-        tags: ${{ steps.meta.outputs.tags }}
-        labels: ${{ steps.meta.outputs.labels }}
+        service_account_key: ${{ secrets.GKE_SA_KEY }}
+        project_id: ${{ secrets.GKE_PROJECT }}
+
+    # Configure Docker to use the gcloud command-line tool as a credential
+    # helper for authentication
+    - run: |-
+        gcloud --quiet auth configure-docker $GOOGLE_CLOUD_REGION.pkg.dev
+
+    # Build the Docker image
+    - name: Build
+      run: |-
+        docker build \
+          --tag "$GOOGLE_CLOUD_REGION.pkg.dev/$PROJECT_ID/$IMAGE:$GITHUB_SHA" \
+          --build-arg GITHUB_SHA="$GITHUB_SHA" \
+          --build-arg GITHUB_REF="$GITHUB_REF" \
+          .
+
+    # Push the Docker image to Google Container Registry
+    - name: Publish
+      run: |-
+        docker push "$GOOGLE_CLOUD_REGION.pkg.dev/$PROJECT_ID/$IMAGE:$GITHUB_SHA"
