@@ -1,8 +1,10 @@
 FROM golang:1.18 as builder
 
 WORKDIR /app
-COPY . .
+COPY go.mod ./
+COPY go.sum ./
 RUN go mod download
+COPY . .
 RUN CGO_ENABLED=0 go build -o geralt
 
 FROM alpine:3.15
