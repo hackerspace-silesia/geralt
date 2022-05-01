@@ -49,7 +49,7 @@ func (handler *FinancesHandler) FinancesServe(c *gin.Context) {
 	}
 	_, _, _, e := handler.apiClient.SendMessage(
 		command.ChannelName,
-		slack.MsgOptionText("1000 zł", false),
+		slack.MsgOptionText("1000 zl", false),
 	)
 	if e != nil {
 		fmt.Println(e)
