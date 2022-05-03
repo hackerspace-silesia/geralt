@@ -9,8 +9,22 @@ import (
 	"github.com/slack-go/slack"
 )
 
-func VerifySecret(c *gin.Context, secret string) error {
-	verifier, err := slack.NewSecretsVerifier(c.Request.Header, secret)
+type SecretsVerifier interface {
+	VerifySecret(*gin.Context) error
+}
+
+type SlackSecretsVerifier struct {
+	secretToken string
+}
+
+func NewSlackSecretsVerifier(secret string) *SlackSecretsVerifier {
+	return &SlackSecretsVerifier{
+		secretToken: secret,
+	}
+}
+
+func (secretsManager *SlackSecretsVerifier) VerifySecret(c *gin.Context) error {
+	verifier, err := slack.NewSecretsVerifier(c.Request.Header, secretsManager.secretToken)
 	if err != nil {
 		c.AbortWithStatus(http.StatusBadRequest)
 		return err

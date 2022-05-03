@@ -12,8 +12,10 @@ func main() {
 	token := os.Getenv("SLACK_AUTH_TOKEN")
 	signingSecret := os.Getenv("SLACK_SIGNING_SECRET")
 	slackClient := slack.New(token)
+	secretsVerifier := views.NewSlackSecretsVerifier(signingSecret)
 	r := gin.Default()
 	r.GET("/healthcheck", views.HealtcheckHandler)
-	r.POST("/commands", views.NewQuoteHandler(slackClient, signingSecret).QuoteServe)
+	r.POST("/commands", views.NewQuoteHandler(slackClient, secretsVerifier).QuoteServe)
+	//r.POST("/events", views.NewEventsHandler(slackClient, secretsVerifier).QuoteServe)
 	r.Run()
 }

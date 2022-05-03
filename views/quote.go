@@ -10,16 +10,16 @@ import (
 )
 
 type QuoteHandler struct {
-	quotes        []string
-	apiClient     *slack.Client
-	signingSecret string
+	quotes         []string
+	apiClient      SlackClient
+	secretVerifier SecretsVerifier
 }
 
-func NewQuoteHandler(slackClient *slack.Client, secret string) *QuoteHandler {
+func NewQuoteHandler(slackClient SlackClient, secrets SecretsVerifier) *QuoteHandler {
 
 	return &QuoteHandler{
-		apiClient:     slackClient,
-		signingSecret: secret,
+		apiClient:      slackClient,
+		secretVerifier: secrets,
 		quotes: []string{
 			"Why men throw their lives away attacking an armed witcher... I'll never know. Something about my face?",
 			"If I have to choose between one evil or another, I'd rather not choose at all",
@@ -28,7 +28,7 @@ func NewQuoteHandler(slackClient *slack.Client, secret string) *QuoteHandler {
 }
 
 func (handler *QuoteHandler) QuoteServe(c *gin.Context) {
-	if err := VerifySecret(c, handler.signingSecret); err != nil {
+	if err := handler.secretVerifier.VerifySecret(c); err != nil {
 		return
 	}
 	command, err := slack.SlashCommandParse(c.Copy().Request)
@@ -36,7 +36,6 @@ func (handler *QuoteHandler) QuoteServe(c *gin.Context) {
 		c.AbortWithStatus(http.StatusBadRequest)
 		return
 	}
-	fmt.Println(command)
 	switch command.Command {
 	case "/quote":
 		quote := handler.GetRandomQuote()
