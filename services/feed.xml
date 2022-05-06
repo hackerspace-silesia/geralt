@@ -1,0 +1,348 @@
+<feed>
+    <title>Hackerspace Silesia</title>
+    <link href="/" rel="alternate" />
+    <link href="/feeds/atom.xml" rel="self" />
+    <id>/</id>
+    <updated>2022-05-06T00:00:00+02:00</updated>
+    <entry>
+        <title>Hack Night #3</title>
+        <link href="/events/hack_night/3/" rel="alternate" />
+        <published>2022-05-06T00:00:00+02:00</published>
+        <updated>2022-05-06T00:00:00+02:00</updated>
+        <author>
+            <name>firemark</name>
+        </author>
+        <id>tag:None,2022-05-06:/events/hack_night/3/</id>
+        <summary type="html">
+            <p>
+                <img alt="hack-night-3" src="/images/hack_night/hack_night_3.png">
+            </p>
+            <p>W piątek 6 maja kwietnia zapraszamy na nasz kolejny Hack Night. Jest otwarta noc w Hackerspace Silesia. Każdy kto chce nas poznać czy skorzystać z naszego wyposażenia, zrobić własny projekt ma całą przestrzeń dostępną do działania.</p>
+            <p>Sami będziemy robili projekt w Golangu czy rozmawiali na temat zbudowania projektu komunikacji między …</p>
+        </summary>
+        <content type="html">
+            <p>
+                <img alt="hack-night-3" src="/images/hack_night/hack_night_3.png">
+            </p>
+            <p>W piątek 6 maja kwietnia zapraszamy na nasz kolejny Hack Night. Jest otwarta noc w Hackerspace Silesia. Każdy kto chce nas poznać czy skorzystać z naszego wyposażenia, zrobić własny projekt ma całą przestrzeń dostępną do działania.</p>
+            <p>Sami będziemy robili projekt w Golangu czy rozmawiali na temat zbudowania projektu komunikacji między zwierzętami a ludźmi, a inni będą kontrybuowali do projektów open source czy bawili się drukiem 3d.</p>
+            <div class="admonition info">
+                <p>19:00 - Rozpoczęcie</p>
+                <p>Zakończenie do ostatniej osoby w Hackerspace</p>
+            </div>
+            <p>
+                Spotykamy się w Hackerspace Silesia na Ondraszka 17 o 19:00 - 6 maja 2022. Opis jak dotrzeć do naszej siedziby jest dostępny tutaj:
+                <a href="https://hs-silesia.pl/place/#place">https://hs-silesia.pl/place/#place</a>
+            </p>
+            <p>Wstęp bezpłatny!</p>
+            <p>
+                <a href="https://www.facebook.com/events/3309150599328048">Link do wydarzenia na Facebook</a>
+            </p>
+            <p>
+                <a href="https://www.meetup.com/Hackerspace-Silesia/events/285624892/">Link do wydarzenia na Meetup</a>
+            </p>
+            <p>
+                <a href="https://www.linkedin.com/events/hacknight-36926408211587563520/about/">Link do wydarzenia na LinkedIn</a>
+            </p>
+        </content>
+        <category term="events" />
+    </entry>
+    <entry>
+        <title>Hack Night #2</title>
+        <link href="/events/hack_night/2/" rel="alternate" />
+        <published>2022-04-22T00:00:00+02:00</published>
+        <updated>2022-04-22T00:00:00+02:00</updated>
+        <author>
+            <name>firemark</name>
+        </author>
+        <id>tag:None,2022-04-22:/events/hack_night/2/</id>
+        <summary type="html">
+            <p>
+                <img alt="hack-night-2" src="/images/hack_night/hack_night_2.png">
+            </p>
+            <p>W piątek 22 kwietnia zapraszamy na nasz kolejny Hack Night. Jest to wieczór i noc w Hackerspace Silesia. Każdy kto chce nas poznać czy skorzystać z naszego wyposażenia, zrobić własny projekt ma całą przestrzeń dostępną do działania.</p>
+            <p>Sami będziemy bawili się drukiem 3D, czy kontrybuowali do projektów open source.</p>
+            <div class="admonition info">
+                <p>19 …</p>
+            </div>
+        </summary>
+        <content type="html">
+            <p>
+                <img alt="hack-night-2" src="/images/hack_night/hack_night_2.png">
+            </p>
+            <p>W piątek 22 kwietnia zapraszamy na nasz kolejny Hack Night. Jest to wieczór i noc w Hackerspace Silesia. Każdy kto chce nas poznać czy skorzystać z naszego wyposażenia, zrobić własny projekt ma całą przestrzeń dostępną do działania.</p>
+            <p>Sami będziemy bawili się drukiem 3D, czy kontrybuowali do projektów open source.</p>
+            <div class="admonition info">
+                <p>19:00 - Rozpoczęcie</p>
+                <p>Zakończenie do ostatniej osoby w Hackerspace</p>
+            </div>
+            <p>
+                Spotykamy się w Hackerspace Silesia na Ondraszka 17 o 19:00 - 22 kwietnia 2022. Opis jak dotrzeć do naszej siedziby jest dostępny tutaj:
+                <a href="https://hs-silesia.pl/place/#place">https://hs-silesia.pl/place/#place</a>
+            </p>
+            <p>Wstęp bezpłatny!</p>
+            <p>
+                <a href="https://www.facebook.com/events/366673998547099">Link do wydarzenia na Facebook</a>
+            </p>
+            <p>
+                <a href="https://www.meetup.com/Hackerspace-Silesia/events/285266305/">Link do wydarzenia na Meetup</a>
+            </p>
+            <p>
+                <a href="https://www.linkedin.com/events/6920241777492774912/about/">Link do wydarzenia na LinkedIn</a>
+            </p>
+        </content>
+        <category term="events" />
+    </entry>
+    <entry>
+        <title>Hack Security #2</title>
+        <link href="/events/hack_security/2/" rel="alternate" />
+        <published>2022-03-29T00:00:00+02:00</published>
+        <updated>2022-03-29T00:00:00+02:00</updated>
+        <author>
+            <name>firemark</name>
+        </author>
+        <id>tag:None,2022-03-29:/events/hack_security/2/</id>
+        <summary type="html">
+            <p>
+                <img alt="hack-security-2" src="/images/hack_security/hack_security_2.png">
+            </p>
+            <p>Jesteśmy grupą pasjonatów IT-sec i chcemy zaprosić Cię na regularne cyber spotkania. Czym będziemy się zajmować? Będziemy psuć, zaglądać do kodu, przełamywać zabezpieczenia, eksplorować i exploitować, poznając jak to działa aby zaspokoić naszą ciekawość, dzięki temu nauczymy się jak się bronić i zabezpieczać. Będziemy się uczyć i świetnie przy tym …</p>
+        </summary>
+        <content type="html">
+            <p>
+                <img alt="hack-security-2" src="/images/hack_security/hack_security_2.png">
+            </p>
+            <p>Jesteśmy grupą pasjonatów IT-sec i chcemy zaprosić Cię na regularne cyber spotkania. Czym będziemy się zajmować? Będziemy psuć, zaglądać do kodu, przełamywać zabezpieczenia, eksplorować i exploitować, poznając jak to działa aby zaspokoić naszą ciekawość, dzięki temu nauczymy się jak się bronić i zabezpieczać. Będziemy się uczyć i świetnie przy tym bawić. Więc jeżeli zaczynasz i poszukujesz kopa aby działać zapraszamy do Hackerspace Silesia.</p>
+            <p>Spotkanie odbywa się w formule "BYOD". Laptop powinien mieć zainstalowane oprogramowanie VirtualBox oraz zaimportowany obraz systemu Kali Linux. Na zajęciach zostanie udostępniony obraz, na którym będziemy pracowali.</p>
+            <div class="admonition info">
+                <p>18:00 - Rozpoczęcie</p>
+            </div>
+            <p>
+                Link do zapisów:
+                <a href="https://www.meetup.com/Hackerspace-Silesia/events/284625496/">https://www.meetup.com/Hackerspace-Silesia/events/284625496/</a>
+            </p>
+            <p>Ilość miejsc ograniczona do 20 osób</p>
+            <p>
+                Spotykamy się w Hackerspace Silesia na Ondraszka 17 o 18:00 - 29 marca 2022. Opis jak dotrzeć do naszej siedziby jest dostępny tutaj:
+                <a href="https://hs-silesia.pl/place/#place">https://hs-silesia.pl/place/#place</a>
+            </p>
+            <p>Wstęp bezpłatny!</p>
+            <p>
+                <a href="https://www.meetup.com/Hackerspace-Silesia/events/284625496/">Link do wydarzenia na Meetup</a>
+            </p>
+            <p>
+                <a href="https://www.linkedin.com/events/hacksecurity-26909385356928782336/about/">Link do wydarzenia na LinkedIn</a>
+            </p>
+            <p>
+                <a href="https://fb.me/e/2hnyxvzwE">Link do wydarzenia na Facebook</a>
+            </p>
+        </content>
+        <category term="events" />
+    </entry>
+    <entry>
+        <title>Hack Night #1</title>
+        <link href="/events/hack_night/1/" rel="alternate" />
+        <published>2022-03-04T00:00:00+01:00</published>
+        <updated>2022-03-04T00:00:00+01:00</updated>
+        <author>
+            <name>firemark</name>
+        </author>
+        <id>tag:None,2022-03-04:/events/hack_night/1/</id>
+        <summary type="html">
+            <p>
+                <img alt="hack-night-1" src="/images/hack_night/hack_night_1.png">
+            </p>
+            <p>W piątek 4 marca zapraszamy na nasz pierwszy Hack Night. Jest to wieczór Hackerspace Silesia (i noc). Każdy kto chce nas poznać czy skorzystać z naszego wyposażenia, zrobić własny projekt ma całą przestrzeń dostępną do działania.</p>
+            <p>Sami będziemy bawili się drukiem 3D, budowali smogomierze, czy kontrybuowali do projektów open source …</p>
+        </summary>
+        <content type="html">
+            <p>
+                <img alt="hack-night-1" src="/images/hack_night/hack_night_1.png">
+            </p>
+            <p>W piątek 4 marca zapraszamy na nasz pierwszy Hack Night. Jest to wieczór Hackerspace Silesia (i noc). Każdy kto chce nas poznać czy skorzystać z naszego wyposażenia, zrobić własny projekt ma całą przestrzeń dostępną do działania.</p>
+            <p>Sami będziemy bawili się drukiem 3D, budowali smogomierze, czy kontrybuowali do projektów open source.</p>
+            <div class="admonition info">
+                <p>19:00 - Rozpoczęcie Zakończenie do ostatniej osoby w Hackerspace</p>
+            </div>
+            <p>
+                Spotykamy się w Hackerspace Silesia na Ondraszka 17 o 19:00 - 4 marca 2022. Opis jak dotrzeć do naszej siedziby jest dostępny tutaj:
+                <a href="https://hs-silesia.pl/place/#place">https://hs-silesia.pl/place/#place</a>
+            </p>
+            <p>Wstęp bezpłatny!</p>
+            <p>
+                <a href="https://www.facebook.com/events/671192654004149">Link do wydarzenia na Facebook</a>
+                <a href="https://www.meetup.com/Hackerspace-Silesia/events/284242383/">Link do wydarzenia na Meetup</a>
+                <a href="https://www.linkedin.com/events/hacknight-16902891693977534465/about/">Link do wydarzenia na LinkedIn</a>
+            </p>
+        </content>
+        <category term="events" />
+    </entry>
+    <entry>
+        <title>Hack Security #1</title>
+        <link href="/events/hack_security/1/" rel="alternate" />
+        <published>2022-02-22T00:00:00+01:00</published>
+        <updated>2022-02-22T00:00:00+01:00</updated>
+        <author>
+            <name>firemark</name>
+        </author>
+        <id>tag:None,2022-02-22:/events/hack_security/1/</id>
+        <summary type="html">
+            <p>
+                <img alt="hack-security-1" src="/images/hack_security/hack_security_1.png">
+            </p>
+            <p>Jesteśmy grupą pasjonatów IT-sec i chcemy zaprosić Cię na regularne cyber spotkania. Czym będziemy się zajmować? Będziemy psuć, zaglądać do kodu, przełamywać zabezpieczenia, eksplorować i exploitować, poznając jak to działa aby zaspokoić naszą ciekawość, dzięki temu nauczymy się jak się bronić i zabezpieczać. Będziemy się uczyć i świetnie przy tym …</p>
+        </summary>
+        <content type="html">
+            <p>
+                <img alt="hack-security-1" src="/images/hack_security/hack_security_1.png">
+            </p>
+            <p>Jesteśmy grupą pasjonatów IT-sec i chcemy zaprosić Cię na regularne cyber spotkania. Czym będziemy się zajmować? Będziemy psuć, zaglądać do kodu, przełamywać zabezpieczenia, eksplorować i exploitować, poznając jak to działa aby zaspokoić naszą ciekawość, dzięki temu nauczymy się jak się bronić i zabezpieczać. Będziemy się uczyć i świetnie przy tym bawić. Więc jeżeli zaczynasz i poszukujesz kopa aby działać zapraszamy do Hackerspace Silesia.</p>
+            <div class="admonition info">
+                <p>18:00 - Rozpoczęcie</p>
+            </div>
+            <p>
+                Link do zapisów:
+                <a href="https://www.meetup.com/pl-PL/Hackerspace-Silesia/events/283332789/">https://www.meetup.com/pl-PL/Hackerspace-Silesia/events/283332789/</a>
+            </p>
+            <p>Ilość miejsc ograniczona do 20 osób</p>
+            <p>
+                Spotykamy się w Hackerspace Silesia na Ondraszka 17 o 18:00 - 2 lutego 2022. Opis jak dotrzeć do naszej siedziby jest dostępny tutaj:
+                <a href="https://hs-silesia.pl/place/#place">https://hs-silesia.pl/place/#place</a>
+            </p>
+            <p>Wstęp bezpłatny!</p>
+            <p>
+                <a href="https://www.meetup.com/pl-PL/Hackerspace-Silesia/events/283332789/">Link do wydarzenia na Meetup</a>
+            </p>
+            <p>
+                <a href="https://www.linkedin.com/events/hacksecurity-16889058152172527616/about/">Link do wydarzenia na LinkedIn</a>
+            </p>
+            <p>
+                <a href="https://fb.me/e/1ekWp8TMV">Link do wydarzenia na Facebook</a>
+            </p>
+        </content>
+        <category term="events" />
+    </entry>
+    <entry>
+        <title>HS Talks #2</title>
+        <link href="/events/hs_talks/2/" rel="alternate" />
+        <published>2021-12-09T00:00:00+01:00</published>
+        <updated>2021-12-09T00:00:00+01:00</updated>
+        <author>
+            <name>firemark</name>
+        </author>
+        <id>tag:None,2021-12-09:/events/hs_talks/2/</id>
+        <summary type="html">
+            <p>
+                <img alt="hs-talks-2" src="/images/hs_talks/hs_talks_2.png">
+            </p>
+            <p>Zapraszamy na drugą edycje HS Talks w Hackerspace Silesia! Agenda:</p>
+            <div class="admonition info">
+                <p>18:00 - Rozpoczęcie</p>
+                <p>18:05 - "8bitowa gra w pythonie, krok po kroku" - Marek Piechula (PL)</p>
+                <p>18:50 - Przerwa</p>
+                <p>19:00 - "Nie/oczywiste metody eksfiltracji w systemach Linux" - Grzegorz Chojnowski (PL)</p>
+                <p>19:55 - Networking, czyli spotkania i dyskusje</p>
+            </div>
+            <p>Obydwie prezentacje odbedą …</p>
+        </summary>
+        <content type="html">
+            <p>
+                <img alt="hs-talks-2" src="/images/hs_talks/hs_talks_2.png">
+            </p>
+            <p>Zapraszamy na drugą edycje HS Talks w Hackerspace Silesia! Agenda:</p>
+            <div class="admonition info">
+                <p>18:00 - Rozpoczęcie</p>
+                <p>18:05 - "8bitowa gra w pythonie, krok po kroku" - Marek Piechula (PL)</p>
+                <p>18:50 - Przerwa</p>
+                <p>19:00 - "Nie/oczywiste metody eksfiltracji w systemach Linux" - Grzegorz Chojnowski (PL)</p>
+                <p>19:55 - Networking, czyli spotkania i dyskusje</p>
+            </div>
+            <p>Obydwie prezentacje odbedą się po polsku.</p>
+            <p>
+                Spotykamy się w Hackerspace Silesia na Ondraszka 17 o 18:00 - 9 grudnia. Opis jak dotrzeć do naszej siedziby jest dostępny tutaj:
+                <a href="https://hs-silesia.pl/place/#place">https://hs-silesia.pl/place/#place</a>
+            </p>
+            <p>Wstęp bezpłatny!</p>
+            <p>
+                <a href="https://www.meetup.com/Hackerspace-Silesia/events/282158783/">Link do wydarzenia na Meetup</a>
+            </p>
+            <p>
+                <a href="https://www.linkedin.com/events/hstalks-26866973894956392450/">Link do wydarzenia na LinkedIn</a>
+            </p>
+            <p>
+                <a href="https://fb.me/e/1TcqiF5rv">Link do wydarzenia na Facebook</a>
+            </p>
+            <h1 id="zdjecia-z-wydarzenia">Zdjęcia z wydarzenia</h1>
+            <p>Zdjęcia dzięki uprzejmości Noemi Kowalewskiej i Marka Piechuli</p>
+            <p>
+                <img alt="hs-talks-2-1" src="/images/hs_talks/2/1.jpg">
+                    <img alt="hs-talks-2-2" src="/images/hs_talks/2/2.jpg">
+                        <img alt="hs-talks-2-3" src="/images/hs_talks/2/3.jpg">
+                            <img alt="hs-talks-2-4" src="/images/hs_talks/2/4.jpg">
+                                <img alt="hs-talks-2-5" src="/images/hs_talks/2/5.jpg">
+                                    <img alt="hs-talks-2-6" src="/images/hs_talks/2/6.jpg">
+                                        <img alt="hs-talks-2-7" src="/images/hs_talks/2/7.jpg">
+                                            <img alt="hs-talks-2-8" src="/images/hs_talks/2/8.jpg">
+                                                <img alt="hs-talks-2-9" src="/images/hs_talks/2/9.jpg">
+                                                    <img alt="hs-talks-2-10" src="/images/hs_talks/2/10.jpg">
+                                                        <img alt="hs-talks-2-11" src="/images/hs_talks/2/11.jpg">
+            </p>
+            <h1 id="nagranie-z-wydarzenia">Nagranie z wydarzenia</h1>
+            <p>
+                <a href="https://www.youtube.com/watch?v=PISWsNC6XaU">Link do nagrania na YouTube</a>
+            </p>
+        </content>
+        <category term="events" />
+    </entry>
+    <entry>
+        <title>HS Talks #1</title>
+        <link href="/events/hs_talks/1/" rel="alternate" />
+        <published>2021-10-21T00:00:00+02:00</published>
+        <updated>2021-10-21T00:00:00+02:00</updated>
+        <author>
+            <name>firemark</name>
+        </author>
+        <id>tag:None,2021-10-21:/events/hs_talks/1/</id>
+        <summary type="html">
+            <p>
+                <img alt="hs-talks-1" src="/images/hs_talks/hs_talks_1.png">
+            </p>
+            <p>Po wielu miesiącach długiej pandemii zapraszamy na pierwszą edycje HS Talks w ramach reboot-u Hackerspace Silesia. W tej edycji agenda wygląda tak:</p>
+            <div class="admonition info">
+                <p>18:00 - Rozpoczęcie</p>
+                <p>18:05 - "The fallacies of distributed computing" - Mateusz Juściński (PL)</p>
+                <p>18:50 - Przerwa</p>
+                <p>19:00 - "Krótka prezentacja na temat parsowania - pydantic, lark i inni" - Dominik …</p>
+            </div>
+        </summary>
+        <content type="html">
+            <p>
+                <img alt="hs-talks-1" src="/images/hs_talks/hs_talks_1.png">
+            </p>
+            <p>Po wielu miesiącach długiej pandemii zapraszamy na pierwszą edycje HS Talks w ramach reboot-u Hackerspace Silesia. W tej edycji agenda wygląda tak:</p>
+            <div class="admonition info">
+                <p>18:00 - Rozpoczęcie</p>
+                <p>18:05 - "The fallacies of distributed computing" - Mateusz Juściński (PL)</p>
+                <p>18:50 - Przerwa</p>
+                <p>19:00 - "Krótka prezentacja na temat parsowania - pydantic, lark i inni" - Dominik Kozaczko (PL)</p>
+                <p>19:45 - Networking, czyli spotkania i dyskusje</p>
+            </div>
+            <p>Obydwie prezentacje odbedą się po polsku.</p>
+            <p>
+                Spotykamy się w Hackerspace Silesia na Ondraszka 17 o 18:00 - 21 października. Opis jak dotrzeć do naszej siedziby jest dostępny tutaj:
+                <a href="https://hs-silesia.pl/place/#place">https://hs-silesia.pl/place/#place</a>
+            </p>
+            <p>Wstęp bezpłatny!</p>
+            <p>
+                <a href="https://www.meetup.com/Hackerspace-Silesia/events/281102887/">Link do wydarzenia na Meetup</a>
+            </p>
+            <p>
+                <a href="https://www.linkedin.com/events/hstalks-16850008218270273536/">Link do wydarzenia na LinkedIn</a>
+            </p>
+            <p>
+                <a href="https://www.facebook.com/events/419112679649783?ref=newsfeed">Link do wydarzenia na Facebook</a>
+            </p>
+        </content>
+        <category term="events" />
+    </entry>
+</feed>
