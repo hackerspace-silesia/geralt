@@ -16,6 +16,6 @@ func main() {
 	r := gin.Default()
 	r.GET("/healthcheck", views.HealtcheckHandler)
 	r.POST("/commands", views.NewQuoteHandler(slackClient, secretsVerifier).QuoteServe)
-	//r.POST("/events", views.NewEventsHandler(slackClient, secretsVerifier).QuoteServe)
+	r.POST("/events", views.NewSlackEventsHandler(slackClient, secretsVerifier).EventServe)
 	r.Run()
 }

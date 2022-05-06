@@ -35,17 +35,6 @@ func TestQuote(t *testing.T) {
 	if err := encoder.Encode(slashCommand, form); err != nil {
 		t.Error("Cannot encode PostForm command")
 	}
-	t.Run("Check if Random quote has any characters", func(t *testing.T) {
-		slackClientMock := new(SlackClientMock)
-		verifierMock := new(SecretsVerifierMock)
-		verifierMock.On("VerifySecret", mock.Anything).Return(nil)
-
-		quote_handler := NewQuoteHandler(slackClientMock, verifierMock)
-		quote := quote_handler.GetRandomQuote()
-		if len(quote) <= 0 {
-			t.Error("Invalid Quote")
-		}
-	})
 	t.Run("Check Handler is sending a message", func(t *testing.T) {
 		slackClientMock := new(SlackClientMock)
 		slackClientMock.On("SendMessage", slashCommand.ChannelName, mock.Anything).Return("", "", "", nil)
